@@ -9,7 +9,7 @@ public:
     vector<int> numberOfNodes;
     vector<int> numberOfEdges;
 
-    UnionFind(int totalNodes) {
+    explicit UnionFind(int totalNodes) {
         parent.resize(totalNodes);
         numberOfNodes.resize(totalNodes);
         numberOfEdges.resize(totalNodes);
